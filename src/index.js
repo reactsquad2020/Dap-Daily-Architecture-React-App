@@ -1,15 +1,19 @@
 import React from "react";
-import Route from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Posts from "../components/Posts";
+import EditPost from "../components/EditPost";
+import CreatePost from "../components/CreatePost";
+import LoginPage from "../components/Login";
 
 ReactDOM.render((
   <Router>
     <Route path="/" component={App}>
-      <Route path="posts" component={Posts} />
+      <Route path="/edit:id" component={EditPost} />
+      <Route path="/create" component={CreatePost} />
+      <Route path="/login" component={LoginPage} />
     </Route>
   </Router>
 ), node);
