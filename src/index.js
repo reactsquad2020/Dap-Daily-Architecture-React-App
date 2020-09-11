@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import CreatePostComp from './components/CreatePost';
 import EditPostComp from './components/EditPost';
 import NewsfeedPosts from './components/Newsfeed';
+import LoginComp from './components/Login';
 
 ReactDOM.render(
   <Router>
@@ -14,7 +15,8 @@ ReactDOM.render(
         <Route exact path='/' component={App} />
         <Route path='/edit/:id' component={EditPostComp} />
         <Route path='/create' component={CreatePostComp} />
-        <Route path='/show/:id' component={NewsfeedPosts} />
+        <Route path='/login' component={LoginComp} />
+        <Route path='/posts' component={NewsfeedPosts} />
       </div>
   </Router>,
   document.getElementById('root')
