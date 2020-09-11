@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-class LoginPage extends React.Component {
+class CreatePostComp extends React.Component {
   render() {
     return (
       <div>
-       <h2>Add the login form here.</h2>
+       <h2>This is where you create a post</h2>
       </div>
     )
   }
 }
 
-export default LoginPage;
+export default CreatePostComp;
