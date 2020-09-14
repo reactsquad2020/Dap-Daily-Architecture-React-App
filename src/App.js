@@ -25,7 +25,7 @@ function App() {
       </div>
     </div>
     <div className="main-profilepic">
-      <img src="asset\profile1.jpg" alt />
+      <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/277-pom-009777-chim.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=83bc3f756995eab9c6176211c3fbee62" alt />
       <div className="email-updates">
         sarah2020@gmail.com
         <div className="profile-edit"></div>
