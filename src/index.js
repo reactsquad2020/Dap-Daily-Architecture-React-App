@@ -18,7 +18,6 @@ ReactDOM.render(
         <Route path='/create' component={CreatePostComp} />
         <Route path='/show/:id' component={ViewPost} />
         <Route path='/login' component={LoginComp} />
-        <Route path='/posts' component={NewsfeedPosts} />
       </div>
   </Router>,
   document.getElementById('root')
