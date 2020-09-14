@@ -15,7 +15,6 @@ class LandingComp extends React.Component {
           <h1>D A P</h1>
           <p>-Let your imagination go wild-</p>
         </div>
-        <div className="taptobegin">Tap anywhere to begin</div>
         <ul>
                     <li><Link to="/login">React</Link></li>
                 </ul>
