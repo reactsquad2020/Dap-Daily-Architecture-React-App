@@ -6,7 +6,7 @@ class LoginComp extends React.Component {
   render() {
     return (
       <div>
-       <h2>Add the login form here.</h2>
+       <h2>This is anthony's first test route</h2>
       </div>
     )
   }
