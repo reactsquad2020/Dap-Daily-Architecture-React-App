@@ -186,13 +186,26 @@
   color: white;
   font-weight: bold;
 }
-
-.buttons .btn-google:hover{
+.btn-google:hover{
   outline: none;
 }
-
-.buttons .btn-done{
+.btn-done{
   padding: 0.8em;
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 3em;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgb(4, 0, 82) 0%, rgb(33, 33, 158) 35%, rgb(0, 213, 255) 100%);
+  color: white;
+  font-weight: bold;
+}
+
+.btn-landing{
+  padding: 0.8em;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
   display: block;
   margin: auto;
   width: 100%;

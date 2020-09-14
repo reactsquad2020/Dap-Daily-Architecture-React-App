@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link } from "react-router-dom";
 
 
 class LoginComp extends React.Component {
@@ -32,12 +32,8 @@ class LoginComp extends React.Component {
         </div>
         <div className="signupwith">Don't have an account? Sign up with</div>
         <div className="buttons">
-          <button type="button" className="btn btn-google">
-            Google
-          </button>
-          <button type="button" className="btn btn-done">
-            Done
-          </button>
+                    <li className="btn btn-google"><Link to="/newsfeed">Sign Up</Link></li>
+                    <li className="btn btn-done"><Link to="/newsfeed">Login</Link></li>
         </div>
       </form>
     </div>

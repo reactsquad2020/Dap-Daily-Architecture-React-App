@@ -1,6 +1,5 @@
 import React from 'react';
-import LoginComp from './Login';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 
 
@@ -15,10 +14,7 @@ class LandingComp extends React.Component {
           <h1>D A P</h1>
           <p>-Let your imagination go wild-</p>
         </div>
-        <ul>
-                    <li><Link to="/login">React</Link></li>
-                </ul>
-
+        <li className="btn btn-landing"><Link to="/login">Start now!</Link></li>    
       </div>
     </div>
     )
