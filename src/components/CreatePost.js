@@ -31,6 +31,15 @@ class CreatePostComp extends React.Component {
             />
           </div>
           <div className="form-group2">
+            <input
+              type="text"
+              className="post-desc"
+              name="post-desc-name"
+              id="post-desc"
+              placeholder="Write a short description."
+            />
+          </div>
+          <div className="form-group2">
             <button className="inside-input">
               <i className="fas fa-plus" />
             </button>

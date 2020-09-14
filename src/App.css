@@ -674,6 +674,14 @@
   outline: none;
 }
 
+.form-group2 .post-desc{
+  border-radius: 3em;
+  padding: 0.5em 1em;
+  width: 80%;
+  text-align: center;
+  outline: none;
+}
+
 .form-group2 .inside-input{
   position: relative;
   left: 7em;
