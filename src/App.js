@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        This is where the GET request goes. The main newsfeed page.
+        This is where the GET request goes. The main newsfeed page. Posts display here.
         </p>
       </header>
     </div>
