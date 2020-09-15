@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+
 *{
   padding: 0;
   margin: 0;
@@ -46,7 +50,7 @@
   text-align: center;
   display: flex;
   justify-items: center;
-  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85);
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85');
 }
 
 .blackbackground{
@@ -90,6 +94,8 @@
   margin-top: 20em;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  font-family: 'Kufam', cursive;
 
 }
 
@@ -108,7 +114,7 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85);
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85');
   background-size: 400%;
   background-repeat: no-repeat;
   background-position: 25%, 70%;
@@ -186,26 +192,13 @@
   color: white;
   font-weight: bold;
 }
-.btn-google:hover{
+
+.buttons .btn-google:hover{
   outline: none;
 }
-.btn-done{
-  padding: 0.8em;
-  display: block;
-  margin: auto;
-  width: 100%;
-  border-radius: 3em;
-  background: rgb(2,0,36);
-  background: linear-gradient(270deg, rgb(4, 0, 82) 0%, rgb(33, 33, 158) 35%, rgb(0, 213, 255) 100%);
-  color: white;
-  font-weight: bold;
-}
 
-.btn-landing{
+.buttons .btn-done{
   padding: 0.8em;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: center;
   display: block;
   margin: auto;
   width: 100%;
@@ -337,7 +330,7 @@
   height: 100%;
   width: 100%;
   z-index: 40;
-
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85');
   background-size: 400%;
   background-repeat: no-repeat;
   background-position: 25%, 70%;
@@ -572,6 +565,7 @@
   background-size: 400%;
   background-repeat: no-repeat;
   background-position: 25%, 70%;
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misc4-jir044369-copy-2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=81a85df468327afd3e4207320ffb7b85');
 }
 
 .footer i{
@@ -657,6 +651,10 @@
   color: rgba(0, 0, 0, 0.781);
 }
 
+.close{
+  text-decoration: none;
+}
+
 .form-group2{
   color: black;
   display: flex;
@@ -669,6 +667,14 @@
   border-radius: 3em;
   padding: 0.5em 1em;
   margin-top: 3em;
+  width: 80%;
+  text-align: center;
+  outline: none;
+}
+
+.form-group2 .description {
+  border-radius: 3em;
+  padding: 0.5em 1em;
   width: 80%;
   text-align: center;
   outline: none;
@@ -688,6 +694,7 @@
   width: 80%;
   text-align: center;
   outline: none;
+  margin-left: -1em;
 }
 
 .form-group2 .post-desc{
@@ -716,4 +723,15 @@
   font-weight: bold;
   opacity: 90%;
   outline: none;
+}
+
+.footer .tab-tab22 i{
+  z-index: 99;
+  position: relative;
+}
+
+.footer .tab-tab11 i{
+  color: white;
+  position: relative;
+  z-index: 99;
 }
